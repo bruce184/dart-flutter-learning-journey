@@ -3,7 +3,7 @@
 ## Week 1 - Setup + Solid Dart Basics
 
 - [x] Session 1: Environment setup
-- [ ] Session 2: First Flutter app
+- [x] Session 2: First Flutter app
 - [ ] Session 3: Dart basics 1
 - [ ] Session 4: Dart basics 2
 - [ ] Session 5: OOP + async + mini CLI
