@@ -4,9 +4,14 @@ Thumbs.db
 
 # Editors
 .idea/
+**/.idea/
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+**/*.iml
+
+# Codex temp
+.codex-temp/
 
 # Dart / Flutter
 **/.dart_tool/

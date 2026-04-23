@@ -1,65 +1,30 @@
-# Roadmap Overview
+# Roadmap Index
 
-This markdown file summarizes the self-study plan so the roadmap is easy to view directly on GitHub.
+This folder stores both the original roadmap documents and GitHub-friendly markdown summaries.
 
-## Main Objective
+## Available Levels
 
-- Follow a fixed 6-week roadmap instead of jumping between random tutorials.
-- Finish each session with a clear output, a short note, and code or screenshots.
-- Build enough Dart and Flutter foundation to complete a small capstone app.
+- Beginner
+- Intermediate / Junior
+- Advanced / Pro
 
-## Weekly Focus
+## Files In This Folder
 
-### Week 1
+- `KE_HOACH_TU_HOC_DART_FLUTTER_BEGINNER.docx`
+- `KE_HOACH_TU_HOC_DART_FLUTTER_JUNIOR.docx`
+- `KE_HOACH_TU_HOC_DART_FLUTTER_PRO.docx`
+- `beginner.md`
+- `intermediate-junior.md`
+- `pro-advanced.md`
 
-- Environment setup
-- Flutter installation and first app
-- Dart basics
-- OOP, async, and a mini CLI app
+## Reading Order
 
-### Week 2
+1. Start with `beginner.md`
+2. Continue with `intermediate-junior.md`
+3. Finish with `pro-advanced.md`
 
-- Flutter mindset
-- StatelessWidget and StatefulWidget
-- `setState`
-- Basic debugging and widget splitting
+## Related Files
 
-### Week 3
-
-- Layout fundamentals
-- Spacing and constraints
-- Lists, grids, and scroll behavior
-- Small layout practice project
-
-### Week 4
-
-- Forms
-- Validation
-- Navigation
-- Passing data between screens
-
-### Week 5
-
-- HTTP requests
-- JSON parsing
-- UI states
-- Provider for shared state
-
-### Week 6
-
-- Project structure
-- Testing basics
-- Capstone app
-- Final cleanup and demo
-
-## Session Output Rules
-
-- Each session should produce a concrete output.
-- If I finish early, I should refactor lightly or write better notes.
-- I should not skip ahead while the current week is still unclear.
-
-## Supporting Files
-
-- Original source document: `KE_HOACH_TU_HOC_DART_FLUTTER_V2.docx`
-- Progress tracker: [docs/progress.md](../progress.md)
-- Session notes: [notes](../../notes)
+- Progress tracker: `../progress.md`
+- Repo structure notes: `../repo-structure.md`
+- Beginner notes: `../../notes/beginner/`
