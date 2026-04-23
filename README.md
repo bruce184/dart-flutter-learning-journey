@@ -49,7 +49,7 @@ For each session, I try to keep the same loop:
 ## Current Progress
 
 - Week 1: in progress
-- Session 2: completed
+- Session 4: completed
 
 See [docs/progress.md](docs/progress.md) for the full checklist.
 
