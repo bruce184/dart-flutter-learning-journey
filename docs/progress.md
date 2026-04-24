@@ -8,7 +8,7 @@
 - [x] Session 2: First Flutter app
 - [x] Session 3: Dart basics 1
 - [x] Session 4: Dart basics 2
-- [ ] Session 5: OOP + async + mini CLI
+- [x] Session 5: OOP + async + mini CLI
 
 ### Week 2 - Flutter Fundamentals + Debugging
 
