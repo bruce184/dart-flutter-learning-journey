@@ -45,7 +45,7 @@ void main() {
   String? name;
   print(name ?? 'Unknown');
 
-  // The '?' is used to check if the variable is null.
+  // The '?.' is used to safely access a nullable value.
   String? city;
   print(city?.length);
 
@@ -79,8 +79,57 @@ void main() {
 
   String? nme = null;
   print(nme?.isEmpty);
+
+  // More practice before moving on to Session 5
+  // Practice 1: Sort
+  List<String> names = ['Zoro', 'Luffy', 'Nami'];
+  print("Before sorting: $names");
+  names.sort();
+  print("After sorting: $names");
+
+  // Practice 2: Loop + Filter
+  List<int> scores = [4, 7, 9, 5, 10];
+  for (int score in scores) {
+    if (score >= 5) {
+      print("Passed!");
+    } else {
+      print("Failed!");
+    }
+  }
+
+  // Practice 3: List of Map (ready for JSON/API)
+  List<Map<String, dynamic>> students = [
+    {'name': 'Luffy', 'score': 8.5},
+    {'name': 'Nami', 'score': 7.0},
+    {'name': 'Zoro', 'score': 4.5},
+  ];
+  // Subtask 1: Get all the students
+  for (var student in students) {
+    print(student['name']);
+  }
+  // Subtask 2: Get all the students that passed
+  for (var student in students) {
+    if (student['score'] >= 5) {
+      print("Student that passed: ${student['name']}");
+    } else {
+      print("Student that failed: ${student['name']}");
+    }
+  }
+  // Subtask 3: Check if the student has a nickname
+  for (var student in students) {
+    print(student['nickname'] ?? 'No nickname');
+  }
+
+  // Practice 4: Mini Function
+  for (var student in students) {
+    print("Student ${student['name']} is ${isPassed(student['score']) ? 'passed' : 'failed'}");
+  }
 }
 
 void showProfile({required String name, int age = 18}) {
   print('Name: $name, Age: $age');
+}
+
+bool isPassed(double score) {
+  return score >= 5;
 }

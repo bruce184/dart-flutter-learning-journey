@@ -11,6 +11,7 @@ Output completed:
 - Practiced `List`, `Map`, and `Set` with add, remove, lookup, and duplicate handling.
 - Used named parameters with a default value in `showProfile`.
 - Practiced null-aware operators with nullable variables and simple fallback logic.
+- Added extra practice for sorting a list, filtering scores, working with `List<Map<String, dynamic>>`, and using a boolean function with a ternary expression.
 
 Evidence:
 - Related project: `01_beginner/01_setup_dart_basics/exercises/basics_2`
@@ -24,6 +25,7 @@ What I understood:
 - `??` provides a fallback value when the left side is `null`.
 - `?.` safely accesses a property or method only when the value is not `null`.
 - `!` asserts that a nullable value is not `null`, so it must be used carefully.
+- The ternary operator `condition ? valueIfTrue : valueIfFalse` is a compact alternative to simple `if/else` value selection.
 
 What is still unclear:
 - I still need more practice choosing between `List`, `Map`, and `Set` in real scenarios.
