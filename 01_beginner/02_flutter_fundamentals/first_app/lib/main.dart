@@ -1,3 +1,15 @@
+/*
+MaterialApp
+- Scaffold
+  - AppBar
+  - body
+    - Center
+      - Column
+        - Text
+        - Text
+        - Text
+        - Text
+*/
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,24 +37,33 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Buoi 2 - Bai tap nho"),
+        title: const Text("Session 6"),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
       body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              "Toi ten Nguyen Huy Hoang",
+              "Flutter Mindset",
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 12),
-            Text("MSSV: 2302700016", style: TextStyle(fontSize: 18)),
+            Text(
+              "Everything is a Widget",
+              style: TextStyle(fontSize: 18),
+            ),
             SizedBox(height: 5),
             Text(
-              "Toi la sinh vien khoa CNTT. ",
+              "UI is built as a Widget Tree",
               style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 12),
+            Text(
+              "I can read a Widget Tree",
+              style: TextStyle(fontSize: 16),
             ),
           ],
         ),
