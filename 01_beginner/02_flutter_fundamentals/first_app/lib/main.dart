@@ -5,10 +5,10 @@ MaterialApp
   - body
     - Center
       - Column
-        - Text
-        - Text
-        - Text
-        - Text
+        - SessionTitle
+        - LearningText
+        - LearningText
+        - LearningText
 */
 import 'package:flutter/material.dart';
 
@@ -30,6 +30,34 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class SessionTitle extends StatelessWidget {
+  final String text;
+
+  // Constructor
+  const SessionTitle({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      text,
+      style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+    );
+  }
+}
+
+// Widget for the text display in HomePage, instead of repeating Text widget
+class LearningText extends StatelessWidget {
+  final String text;
+
+  // Constructor
+  const LearningText({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(text, style: const TextStyle(fontSize: 18));
+  }
+}
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -37,7 +65,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Session 6"),
+        title: const Text("Session 7"),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
@@ -46,25 +74,13 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              "Flutter Mindset",
-              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-            ),
+            SessionTitle(text: "StatelessWidget"),
             SizedBox(height: 12),
-            Text(
-              "Everything is a Widget",
-              style: TextStyle(fontSize: 18),
-            ),
+            LearningText(text: "StatelessWidget has no mutable state"),
             SizedBox(height: 5),
-            Text(
-              "UI is built as a Widget Tree",
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 12),
-            Text(
-              "I can read a Widget Tree",
-              style: TextStyle(fontSize: 16),
-            ),
+            LearningText(text: "build() describes the UI"),
+            SizedBox(height: 5),
+            LearningText(text: "final fields store widget configuration"),
           ],
         ),
       ),
