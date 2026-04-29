@@ -6,9 +6,8 @@ MaterialApp
     - Center
       - Column
         - SessionTitle
-        - LearningText
-        - LearningText
-        - LearningText
+        - Counter Text
+        - ElevatedButton
 */
 import 'package:flutter/material.dart';
 
@@ -58,29 +57,43 @@ class LearningText extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Session 7"),
+        title: const Text("Session 8"),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SessionTitle(text: "StatelessWidget"),
-            SizedBox(height: 12),
-            LearningText(text: "StatelessWidget has no mutable state"),
-            SizedBox(height: 5),
-            LearningText(text: "build() describes the UI"),
-            SizedBox(height: 5),
-            LearningText(text: "final fields store widget configuration"),
+            const SessionTitle(text: "StatefulWidget + setState"),
+            const SizedBox(height: 12),
+            Text("Counter: $_counter", style: const TextStyle(fontSize: 32)),
+            const SizedBox(height: 5),
+            ElevatedButton(
+              onPressed: _incrementCounter,
+              child: const Text("Increase Counter"),
+            ),
           ],
         ),
       ),

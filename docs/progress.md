@@ -14,7 +14,7 @@
 
 - [x] Session 6: Flutter mindset
 - [x] Session 7: StatelessWidget
-- [ ] Session 8: StatefulWidget + `setState`
+- [x] Session 8: StatefulWidget + `setState`
 - [ ] Session 9: Split widgets
 - [ ] Session 10: Basic debugging + mini project
 
