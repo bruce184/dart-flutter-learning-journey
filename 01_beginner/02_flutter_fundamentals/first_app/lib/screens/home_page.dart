@@ -20,7 +20,7 @@ class HomePage extends StatefulWidget {
 */
 
 class _HomePageState extends State<HomePage> {
-  int _counter = 0;
+  int _counter = 100;
 
   void _incrementCounter() {
     setState(() {
@@ -32,8 +32,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Session 9"),
-        backgroundColor: Colors.blue,
+        title: const Text("Session 10"),
+        backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
       body: Center(
