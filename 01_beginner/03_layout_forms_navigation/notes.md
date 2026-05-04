@@ -8,4 +8,6 @@ Planned focus:
 
 Status:
 
-- scaffolded for upcoming beginner sessions
+- Session 11 materials are now available.
+- Guided exercise added in `exercises/session11_layout_basics.md`.
+- Next topics remain `Expanded`, `Flexible`, scrolling, forms, and navigation.

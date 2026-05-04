@@ -2,8 +2,12 @@
 
 Notes in this folder are grouped by week for Phase 1.
 
-Current detailed notes already exist in:
+Current detailed notes exist in:
 
 - `week-01/`
+- `week-02/`
+- `week-03/`
 
-The later week folders are ready to fill as the beginner roadmap continues.
+Current latest beginner note:
+
+- `week-03/session11.md`
