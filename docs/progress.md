@@ -16,7 +16,7 @@
 - [x] Session 7: StatelessWidget
 - [x] Session 8: StatefulWidget + `setState`
 - [x] Session 9: Split widgets
-- [ ] Session 10: Basic debugging + mini project
+- [x] Session 10: Basic debugging + mini project
 
 ### Week 3 - Layout
 
