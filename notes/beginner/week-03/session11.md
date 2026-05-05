@@ -234,7 +234,7 @@ Today, build a simple profile card layout with:
 
 Use the guided exercise here:
 
-- `01_beginner/03_layout_forms_navigation/exercises/session11_layout_basics.md`
+- `01_beginner/03_layout_forms_navigation/exercises/session11/session11_layout_basics.md`
 
 ## Output Completed
 
@@ -244,7 +244,7 @@ Use the guided exercise here:
 ## Evidence
 
 - Related project: `01_beginner/03_layout_forms_navigation/`
-- Practice file: `01_beginner/03_layout_forms_navigation/exercises/session11_layout_basics.md`
+- Practice file: `01_beginner/03_layout_forms_navigation/exercises/session11/session11_layout_basics.md`
 
 ## Note About Tests
 

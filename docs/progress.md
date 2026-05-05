@@ -20,8 +20,8 @@
 
 ### Week 3 - Layout
 
-- [ ] Session 11: Row, Column, Padding, `SizedBox`
-- [ ] Session 12: Expanded, Flexible, constraints
+- [x] Session 11: Row, Column, Padding, `SizedBox`
+- [x] Session 12: Expanded, Flexible, constraints
 - [ ] Session 13: `ListView`
 - [ ] Session 14: `GridView` + `SingleChildScrollView`
 - [ ] Session 15: Mini project

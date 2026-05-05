@@ -9,5 +9,7 @@ Planned focus:
 Status:
 
 - Session 11 materials are now available.
-- Guided exercise added in `exercises/session11_layout_basics.md`.
-- Next topics remain `Expanded`, `Flexible`, scrolling, forms, and navigation.
+- Guided exercise added in `exercises/session11/session11_layout_basics.md`.
+- Session 12 materials are now available.
+- Guided exercise added in `exercises/session12/session12_expanded_flexible.md`.
+- Next topics remain scrolling, forms, and navigation.
