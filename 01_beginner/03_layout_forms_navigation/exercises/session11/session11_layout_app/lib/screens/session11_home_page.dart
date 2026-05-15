@@ -58,9 +58,9 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 24),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     StatItem(value: '12', label: 'Posts'),
                     StatItem(value: '340', label: 'Followers'),
                     StatItem(value: '180', label: 'Following'),
