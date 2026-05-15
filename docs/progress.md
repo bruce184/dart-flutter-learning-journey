@@ -16,13 +16,13 @@
 - [x] Session 7: StatelessWidget
 - [x] Session 8: StatefulWidget + `setState`
 - [x] Session 9: Split widgets
-- [x] Session 10: Basic debugging + mini project
+- [x] Session 10: Basic debugging
 
 ### Week 3 - Layout
 
 - [x] Session 11: Row, Column, Padding, `SizedBox`
 - [x] Session 12: Expanded, Flexible, constraints
-- [ ] Session 13: `ListView`
+- [x] Session 13: `ListView`
 - [ ] Session 14: `GridView` + `SingleChildScrollView`
 - [ ] Session 15: Mini project
 

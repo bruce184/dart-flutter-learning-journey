@@ -10,4 +10,4 @@ Current detailed notes exist in:
 
 Current latest beginner note:
 
-- `week-03/session12.md`
+- `week-03/session13.md`

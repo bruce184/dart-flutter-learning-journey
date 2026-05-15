@@ -16,5 +16,8 @@ The existing work in this repo is currently concentrated in:
 
 - `01_setup_dart_basics/exercises/`
 - `02_flutter_fundamentals/first_app/`
+- `03_layout_forms_navigation/exercises/session11/`
+- `03_layout_forms_navigation/exercises/session12/`
+- `03_layout_forms_navigation/exercises/session13/`
 
-The remaining modules are scaffolded and ready to fill as the beginner roadmap continues.
+The next beginner topic is Session 14: `GridView` + `SingleChildScrollView`.
