@@ -14,4 +14,6 @@ Status:
 - Guided exercise added in `exercises/session12/session12_expanded_flexible.md`.
 - Session 13 materials are now available.
 - Guided exercise added in `exercises/session13/session13_listview.md`.
-- Next topics remain grid scrolling, forms, and navigation.
+- Session 14 materials are now available.
+- Guided exercise added in `exercises/session14/session14_grid_scroll.md`.
+- Next topics remain forms and navigation.
