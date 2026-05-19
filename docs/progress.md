@@ -24,7 +24,7 @@
 - [x] Session 12: Expanded, Flexible, constraints
 - [x] Session 13: `ListView`
 - [x] Session 14: `GridView` + `SingleChildScrollView`
-- [ ] Session 15: Mini project
+- [x] Session 15: Mini project
 
 ### Week 4 - Forms + Navigation
 
