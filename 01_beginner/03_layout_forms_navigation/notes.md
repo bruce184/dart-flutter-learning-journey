@@ -18,4 +18,6 @@ Status:
 - Guided exercise added in `exercises/session14/session14_grid_scroll.md`.
 - Session 15 materials are now available.
 - Guided exercise added in `exercises/session15/session15_layout_mini_project.md`.
-- Next topics remain forms and navigation.
+- Session 16 materials are now available.
+- Guided exercise added in `exercises/session16/session16_text_input.md`.
+- Next topics remain validation and navigation.

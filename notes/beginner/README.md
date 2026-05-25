@@ -11,4 +11,4 @@ Current detailed notes exist in:
 
 Current latest beginner note:
 
-- `week-04/pre-session16-review.md`
+- `week-04/session16.md`

@@ -28,7 +28,7 @@
 
 ### Week 4 - Forms + Navigation
 
-- [ ] Session 16: TextField / TextFormField
+- [x] Session 16: TextField / TextFormField
 - [ ] Session 17: Validation
 - [ ] Session 18: Navigation basics
 - [ ] Session 19: Passing data + dispose
