@@ -7,7 +7,8 @@ Current detailed notes exist in:
 - `week-01/`
 - `week-02/`
 - `week-03/`
+- `week-04/`
 
 Current latest beginner note:
 
-- `week-03/session13.md`
+- `week-04/pre-session16-review.md`
